@@ -17,7 +17,6 @@ workbook = file.open_by_key('XXXXXX WORKBOOK KEY XXXXXXX')
 sheet = workbook.worksheet('WORKSHEET NAME')
 
 
-
 # Ogłoszenia urzędowe
 rbk_res_o = requests.get("https://bip.um.rybnik.eu/Default.aspx?Page=31")
 rbk_res_o.raise_for_status()
